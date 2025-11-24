@@ -1,1 +1,2 @@
-pip install -r requirements.txt --break-system-packages
+
+sudo docker run -it build_v1.0:latest
