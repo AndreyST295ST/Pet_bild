@@ -22,6 +22,4 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 # Запускаем приложение
-CMD ["python3", "main.py"]
-
-RUN sleep infinity
+CMD ["sh", "-c", "python3 main.py && sleep infinity"]
